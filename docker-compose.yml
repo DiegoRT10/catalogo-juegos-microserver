@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  api:
+    image: node:16.20.2
+    working_dir: /api-rest
+    volumes:
+      - .:/api-rest
+    ports:
+      - "3001:3001"
+    command: sh -c "npm install && npm start"
+
+
