@@ -4,7 +4,7 @@ const app = require('../../server');
 const pool = require('../connection/connection');
 
 let authToken;
-//S
+
 describe('Pruebas de API', () => {
   before(async () => {
     // Configuración inicial (obtener token, etc.)
