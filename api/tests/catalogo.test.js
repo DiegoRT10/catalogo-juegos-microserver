@@ -3,6 +3,8 @@ const assert = require('assert');
 const app = require('../../server');
 const pool = require('../connection/connection');
 
+//
+
 describe('Endpoint /games', () => {
   it('Debería obtener datos de juegos en GET /games', async () => {
     const response = await request(app)
