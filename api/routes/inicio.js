@@ -4,7 +4,7 @@ require('dotenv').config();
 
 
 router.get('/',(reg, res) => {
-    res.send('Microservicio de catalogo de juegos');
+    res.send('Microservicio de catalogo de juegos!!!');
 });
 
   
